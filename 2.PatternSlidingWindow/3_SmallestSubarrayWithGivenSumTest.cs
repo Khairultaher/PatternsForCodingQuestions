@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace PatternSlidingWindow
 {
-    public class UnitTest
+    public class SmallestSubarrayWithGivenSumTest
     {
 
         [Theory]
