@@ -1,6 +1,6 @@
-namespace _1.Introduction
+namespace PatternsForCodingQuestions
 {
-    public class UnitTest
+    public class Introduction
     {
         [Fact]
         public void Test1()
@@ -56,4 +56,6 @@ namespace _1.Introduction
             expected.ShouldBe(actual);
         }
     }
+
+
 }

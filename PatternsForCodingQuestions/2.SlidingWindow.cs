@@ -1,10 +1,9 @@
 using System.Collections.Generic;
 
-namespace PatternSlidingWindow
+namespace PatternsForCodingQuestions
 {
-    public class SmallestSubarrayWithGivenSumTest
+    public class PatternSlidingWindow
     {
-
         [Theory]
         [InlineData(new int[] { 2,7,5,4}, 9, new int[] { 0,1})]
         public void TwoSumTest(int[] nums, int sum, int[] expected)
@@ -31,7 +30,6 @@ namespace PatternSlidingWindow
             //Assert
             expected.ShouldBe(actual);
         }
-
 
     }
 }
